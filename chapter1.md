@@ -11,7 +11,7 @@ attachments :
 //player.vimeo.com/video/154783078
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1
-## A really bad movie
+## Distribution
 
 We are going to analyse Apache logs
 
@@ -55,7 +55,7 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
 --- type:NormalExercise lang:r xp:200 skills:1
-## More movies
+## Performance
 
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
 
@@ -148,8 +148,82 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:200 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1
+## Performance
 
---- type:NormalExercise lang:r xp:200 skills:1
+*** =instructions
+- inst1
 
---- type:NormalExercise lang:r xp:200 skills:1
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## HTTP Codes
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## HTTP Tags
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Inlinks
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Outlinks
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Alerts
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
