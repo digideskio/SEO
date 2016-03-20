@@ -11,7 +11,7 @@ attachments :
 //player.vimeo.com/video/154783078
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1
-## A really bad movie
+## Crawl Distribution
 
 We are going to analyse Apache logs
 
@@ -55,7 +55,7 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
 --- type:NormalExercise lang:r xp:200 skills:1
-## More movies
+## Visits Distribution
 
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
 
@@ -146,4 +146,83 @@ test_error()
 
 # Final message the student will see upon completing the exercise
 success_msg("Good work!")
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Visits Distribution
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Inactive Urls Distribution
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## HTTP Code Distribution
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Retention
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Crawled Urls
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Visited Urls
+
+*** =instructions
+- inst1
+
+*** =hint
+- hint1
+
+*** =solution
+```{r}
 ```
