@@ -147,3 +147,9 @@ test_error()
 # Final message the student will see upon completing the exercise
 success_msg("Good work!")
 ```
+
+--- type:NormalExercise lang:r xp:200 skills:1
+
+--- type:NormalExercise lang:r xp:200 skills:1
+
+--- type:NormalExercise lang:r xp:200 skills:1
