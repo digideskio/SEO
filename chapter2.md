@@ -1,10 +1,10 @@
 ---
-title       : Analyze Your Website With the Screaming Frog SEO Spider and R
+title       : Analyze Apache weblogs in R
 description : Insert the chapter description here
 attachments :
   slides_link : http://www.screamingfrog.co.uk/seo-spider/
 
---- type:VideoExercise lang:r xp:30 skills:1
+--- type:VideoExercise lang:r xp:10 skills:1
 ## Visits 
 
 *** =video_link

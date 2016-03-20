@@ -1,7 +1,7 @@
-title            : Template R DataCamp Course
+title            : Use R for SEO
 author_field     : voltek62
-description      : Use R for SEO
-author_bio       : voltek62 is an awesome DataCamp course creator. data-seo.com
+description      : Analyze Apache weblogs, IIS weblogs and Analytics
+author_bio       : Vincent Terrasi is a Data Scientist specialized in SEO and Web Analytics
 university       : DataCamp
-difficulty_level : 2
+difficulty_level : 3
 time_needed      : 2 hours
