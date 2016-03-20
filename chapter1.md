@@ -1,11 +1,11 @@
 ---
-title       : Insert the chapter title here
+title       : Analyzing Your Website With the Screaming Frog SEO Spider and R
 description : Insert the chapter description here
 attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+  slides_link : http://www.screamingfrog.co.uk/seo-spider/
 
 --- type:VideoExercise lang:r xp:30 skills:1
-## Analyze movie ratings
+## Visits 
 
 *** =video_link
 //player.vimeo.com/video/154783078
