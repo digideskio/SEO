@@ -1,6 +1,6 @@
 ---
-title       : Manipulate your SEO data
-description : Insert the chapter description here
+title       : Create your Internal Linking
+description : 
 attachments :
   slides_link : http://www.screamingfrog.co.uk/seo-spider/
 

@@ -1,6 +1,6 @@
 ---
-title       : Analyze Your Website With the Screaming Frog SEO Spider and R
-description : Insert the chapter description here
+title       : Import your data crawl
+description : Screaming Frog, Botify, Deepcrawl, Oncrawl, Kelogs
 attachments :
   slides_link : http://www.screamingfrog.co.uk/seo-spider/
 

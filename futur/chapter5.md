@@ -1,5 +1,5 @@
 ---
-title       : Manipulate your SEO data
+title       : SEO Machine Learning
 description : Insert the chapter description here
 attachments :
   slides_link : http://www.screamingfrog.co.uk/seo-spider/
