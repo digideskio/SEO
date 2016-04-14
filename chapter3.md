@@ -1,5 +1,5 @@
 ---
-title       : Manipulate your SEO data
+title       : Create beautiful SEO reporting
 description : Insert the chapter description here
 attachments :
   slides_link : http://www.screamingfrog.co.uk/seo-spider/
