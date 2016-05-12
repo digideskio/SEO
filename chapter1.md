@@ -157,7 +157,7 @@ test_function("aggregate", args = "object",
               not_called_msg = "You didn't call `aggregate()`!",
               incorrect_msg = "You didn't call `aggregate(object = ...)` with the correct argument, `object`.")
 
-# test_function("select", args = c("x", "by", "FUN"))
+# test_function("aggregate", args = c("x", "by", "FUN"))
               
 test_object("urls_level")   
 
