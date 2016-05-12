@@ -97,6 +97,7 @@ A dataset with a selection of urls, `urls`, is available in the workspace.
 ```{r}
 # Pre-load a package in the workspace
 library(dplyr)
+urls <-  read.csv("http://wordpress-logs-vincent59.c9users.io/csv/crawl-scifi.csv", header = TRUE, sep=";")
 ```
 
 *** =sample_code
