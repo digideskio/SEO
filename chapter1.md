@@ -85,12 +85,12 @@ A dataset with a selection of urls, `urls`, is available in the workspace.
 *** =instructions
 - Check out the structure of `urls`
 - Select Level and Sessions of `urls`. Stored data in small_urls
-- aggregate your data with the level.
+- aggregate your data with the level and store results in urls_level. Insert list(Level=urls_select$Level) onto by, sum onto FUN
 
 *** =hint
 - Use `str()` for the first instruction.
 - Use select() instruction.
-- Use aggregate() instructions on GA.Sessions and store results in urls_level. Insert list(Level=urls_select$Level) onto by, sum onto FUN, and TRUE onto na.rm
+- Use aggregate() instructions on GA.Sessions
 
 
 *** =pre_exercise_code
@@ -122,7 +122,7 @@ str(urls)
 small_urls <- select(urls, Level, GA.Sessions)
 
 # aggregate your data. Use small_urls dataframe
-urls_level <- aggregate(small_urls$GA.Sessions, by=list(Level=small_urls$Level), FUN=sum, na.rm=TRUE)
+urls_level <- aggregate(small_urls$GA.Sessions, by=list(Level=small_urls$Level), FUN=sum)
 
 ```
 
@@ -148,11 +148,16 @@ test_function("select", args = "object",
               not_called_msg = "You didn't call `select()`!",
               incorrect_msg = "You didn't call `select(object = ...)` with the correct argument, `object`.")
               
+# Alternativeley, you can use test_function() like this
+# test_function("select", args = c("data"))
+              
 test_object("small_urls")   
 
 test_function("aggregate", args = "object",
               not_called_msg = "You didn't call `aggregate()`!",
               incorrect_msg = "You didn't call `aggregate(object = ...)` with the correct argument, `object`.")
+
+# test_function("select", args = c("x", "by", "FUN"))
               
 test_object("urls_level")   
 
