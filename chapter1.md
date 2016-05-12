@@ -13,7 +13,8 @@ attachments :
 Nous allons analyser la structure du dataframe urls qui est préchargé dans votre workspace. Pour cela utilisez la fonction str(). La fonction prend en paramètre, le dataframe.
 
 *** =instructions
-Vous devez charger le fichier xlsx de Screaming Frog
+
+Lancer la commande str() sur votre data_frame.
 
 *** =hint
 Avez-vous utiliser str(votre_data_frame) ?
@@ -50,15 +51,28 @@ str(urls)
 ```{r}
 # The sct section defines the Submission Correctness Tests (SCTs) used to
 # evaluate the student's response. All functions used here are defined in the 
-# testwhat R package
+# testwhat R package. Documentation can also be found at github.com/datacamp/testwhat/wiki
 
-msg_bad <- "That is not correct!"
-msg_success <- "Exactly! There seems to be a very bad action movie in the dataset."
+# Test whether the function str is called with the correct argument, object
+# If it is not called, print something informative
+# If it is called, but called incorrectly, print something else
+test_function("str", args = "object",
+              not_called_msg = "You didn't call `str()`!",
+              incorrect_msg = "You didn't call `str(object = ...)` with the correct argument, `object`.")
 
-# Use test_mc() to grade multiple choice exercises. 
-# Pass the correct option (Action, option 2 in the instructions) to correct.
-# Pass the feedback messages, both positive and negative, to feedback_msgs in the appropriate order.
-test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad)) 
+# Test the object, good_movies
+# Notice that we didn't define any feedback here, this will cause automatically 
+# generated feedback to be given to the student in case of an incorrect submission
+test_object("urls")
+
+# It's always smart to include the following line of code at the end of your SCTs
+# It will check whether executing the student's code resulted in an error, 
+# and if so, will cause the exercise to fail
+test_error()
+
+# Final message the student will see upon completing the exercise
+success_msg("Good work!")
+
 ```
 
 --- type:NormalExercise lang:r xp:200 skills:1 key:2393503932
