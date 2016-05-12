@@ -4,13 +4,13 @@ description : Screaming Frog, Botify, Deepcrawl, Oncrawl, Kelogs
 attachments :
   slides_link : http://www.screamingfrog.co.uk/seo-spider/
 
---- type:VideoExercise lang:r xp:30 skills:1
+--- type:VideoExercise lang:r xp:30 skills:1 key:a5f5fbf146
 ## Visits 
 
 *** =video_link
 //player.vimeo.com/video/154783078
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:7ccf59caa3
 ## Distribution
 
 We are going to analyse Apache logs
@@ -49,7 +49,7 @@ msg_success <- "Exactly! There seems to be a very bad action movie in the datase
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad)) 
 ```
 
---- type:NormalExercise lang:r xp:200 skills:1
+--- type:NormalExercise lang:r xp:200 skills:1 key:2393503932
 ## Performance
 
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
@@ -119,7 +119,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:2393503932
 ## Performance
 
 *** =instructions
@@ -133,7 +133,7 @@ success_msg("Good work!")
 ```
 
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:e8cb166fde
 ## HTTP Codes
 
 *** =instructions
@@ -146,7 +146,7 @@ success_msg("Good work!")
 ```{r}
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:b2cc06531b
 ## HTTP Tags
 
 *** =instructions
@@ -159,7 +159,7 @@ success_msg("Good work!")
 ```{r}
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:4285739ca6
 ## Inlinks
 
 *** =instructions
@@ -172,7 +172,7 @@ success_msg("Good work!")
 ```{r}
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:f3132dda60
 ## Outlinks
 
 *** =instructions
@@ -185,7 +185,7 @@ success_msg("Good work!")
 ```{r}
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:07a7a622ec
 ## Alerts
 
 *** =instructions
