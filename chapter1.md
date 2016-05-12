@@ -7,7 +7,7 @@ attachments :
 --- type:VideoExercise lang:r xp:30 skills:1 key:a5f5fbf146
 ## Visits 
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:7ccf59caa3
+--- type:NormalExercise lang:r xp:50 skills:1 key:7ccf59caa3
 ## Structure et Comprehension
 
 Nous allons analyser la structure du dataframe urls qui est préchargé dans votre workspace. Pour cela utilisez la fonction str(). La fonction prend en paramètre, le dataframe.
