@@ -122,7 +122,7 @@ str(urls)
 small_urls <- select(urls, Address, GA.Sessions)
 
 # aggregate your data. Use small_urls dataframe
-urls_level <- aggregate(small_urls$`GA Sessions`, by=list(Level=urls_select$Level), FUN=sum, na.rm=TRUE)
+urls_level <- aggregate(small_urls$GA.Sessions, by=list(Level=small_urls$Level), FUN=sum, na.rm=TRUE)
 
 ```
 
