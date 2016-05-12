@@ -76,29 +76,38 @@ success_msg("Good work!")
 ```
 
 --- type:NormalExercise lang:r xp:200 skills:1 key:2393503932
-## Performance
+## Level and Sessions
 
-In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
+In the previous exercise, you saw a dataset about urls.
 
-A dataset with a selection of movies, `movie_selection`, is available in the workspace.
+A dataset with a selection of urls, `urls`, is available in the workspace.
 
 *** =instructions
 - Check out the structure of `urls`
+- Select Level and Sessions of `urls`. Stored data in small_urls
+- aggregate your data with the level.
 
 *** =hint
 - Use `str()` for the first instruction.
+- Use select() instruction.
+- Use aggregate() instructions on GA.Sessions and store results in urls_level. Insert list(Level=urls_select$Level) onto by, sum onto FUN, and TRUE onto na.rm
 
 
 *** =pre_exercise_code
 ```{r}
 # Pre-load a package in the workspace
-
+library(dplyr)
 ```
 
 *** =sample_code
 ```{r}
-# write str
+# write str on urls data
 
+
+# select level and sessions and stored data in a new data frame : small_urls
+
+
+# aggregate your data. Use small_urls dataframe. Store results in urls_level
 
 
 ```
@@ -107,6 +116,13 @@ A dataset with a selection of movies, `movie_selection`, is available in the wor
 ```{r}
 # write str
 str(urls)
+
+# select level and sessions and stored data in a new data frame : small_urls
+small_urls <- select(urls, Address, GA.Sessions)
+
+# aggregate your data. Use small_urls dataframe
+urls_level <- aggregate(small_urls$`GA Sessions`, by=list(Level=urls_select$Level), FUN=sum, na.rm=TRUE)
+
 ```
 
 *** =sct
@@ -127,14 +143,18 @@ test_function("str", args = "object",
 # generated feedback to be given to the student in case of an incorrect submission
 test_object("urls")
 
-# Test whether the student correctly used plot()
-# Again, we use the automatically generated feedback here
-test_function("plot", args = "x")
-test_function("plot", args = "y")
-test_function("plot", args = "col")
+test_function("select", args = "object",
+              not_called_msg = "You didn't call `select()`!",
+              incorrect_msg = "You didn't call `select(object = ...)` with the correct argument, `object`.")
+              
+test_object("small_urls")   
 
-# Alternativeley, you can use test_function() like this
-# test_function("plot", args = c("x", "y", "col"))
+test_function("aggregate", args = "object",
+              not_called_msg = "You didn't call `aggregate()`!",
+              incorrect_msg = "You didn't call `aggregate(object = ...)` with the correct argument, `object`.")
+              
+test_object("urls_level")   
+
 
 # It's always smart to include the following line of code at the end of your SCTs
 # It will check whether executing the student's code resulted in an error, 
