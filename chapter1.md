@@ -119,7 +119,7 @@ urls <-  read.csv("http://wordpress-logs-vincent59.c9users.io/csv/crawl-scifi.cs
 str(urls)
 
 # select level and sessions and stored data in a new data frame : small_urls
-small_urls <- select(data = urls, arg1 = Level, arg2 = GA.Sessions)
+small_urls <- select(.data = urls, arg1 = Level, arg2 = GA.Sessions)
 
 # aggregate your data. Use small_urls dataframe
 urls_level <- aggregate(small_urls$GA.Sessions, by=list(Level=small_urls$Level), FUN=sum)
@@ -149,7 +149,7 @@ test_function("select", args = "object",
               incorrect_msg = "You didn't call `select(object = ...)` with the correct argument, `object`.")
               
 # Alternativeley, you can use test_function() like this
-# test_function("select", args = c("data", "arg1", "arg2"))
+# test_function("select", args = c(".data", "arg1", "arg2"))
               
 test_object("small_urls")   
 
