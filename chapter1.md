@@ -30,7 +30,7 @@ library(readxl)
 
 # 1. Preload a dataset. The code below will read the csv that is stored at the URL's location.
 # The movies variable will be available in the user's console.
-urls <-  read.csv("https://wordpress-logs-vincent59.c9users.io/csv/crawl-scifi.csv", header = TRUE, sep=";")
+urls <-  read.csv("http://wordpress-logs-vincent59.c9users.io/csv/crawl-scifi.csv", header = TRUE, sep=";")
 
 ```
 
