@@ -4,13 +4,13 @@ description : Insert the chapter description here
 attachments :
   slides_link : http://www.screamingfrog.co.uk/seo-spider/
 
---- type:VideoExercise lang:r xp:10 skills:1
+--- type:VideoExercise lang:r xp:10 skills:1 key:a6296eaa53
 ## Visits 
 
 *** =video_link
 //player.vimeo.com/video/154783078
 
---- type:MultipleChoiceExercise lang:r xp:50 skills:1
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:0e0ea03ffc
 ## Crawl Distribution
 
 We are going to analyse Apache logs
@@ -54,7 +54,7 @@ msg_success <- "Exactly! There seems to be a very bad action movie in the datase
 test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad)) 
 ```
 
---- type:NormalExercise lang:r xp:200 skills:1
+--- type:NormalExercise lang:r xp:200 skills:1 key:49892dd75f
 ## Visits Distribution
 
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
@@ -148,7 +148,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:49892dd75f
 ## Visits Distribution
 
 *** =instructions
@@ -162,7 +162,7 @@ success_msg("Good work!")
 ```
 
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:2b3eb28463
 ## Inactive Urls Distribution
 
 *** =instructions
@@ -175,7 +175,7 @@ success_msg("Good work!")
 ```{r}
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:20a1616da2
 ## HTTP Code Distribution
 
 *** =instructions
@@ -188,7 +188,7 @@ success_msg("Good work!")
 ```{r}
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:a07d62f329
 ## Retention
 
 *** =instructions
@@ -201,7 +201,7 @@ success_msg("Good work!")
 ```{r}
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:94555125bf
 ## Crawled Urls
 
 *** =instructions
@@ -214,7 +214,7 @@ success_msg("Good work!")
 ```{r}
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:9d9d144f76
 ## Visited Urls
 
 *** =instructions
