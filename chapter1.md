@@ -7,19 +7,16 @@ attachments :
 --- type:VideoExercise lang:r xp:30 skills:1 key:a5f5fbf146
 ## Visits 
 
-*** =video_link
-//player.vimeo.com/video/154783078
-
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:7ccf59caa3
-## Distribution
+## Structure et Comprehension
 
-We are going to analyse Apache logs
+Nous allons analyser la structure du dataframe urls qui est préchargé dans votre workspace. Pour cela utilisez la fonction str(). La fonction prend en paramètre, le dataframe.
 
 *** =instructions
 Vous devez charger le fichier xlsx de Screaming Frog
 
 *** =hint
-Avez-vous utiliser read.xls ?
+Avez-vous utiliser str(votre_data_frame) ?
 
 *** =pre_exercise_code
 ```{r}
@@ -33,6 +30,21 @@ library(readxl)
 urls <-  read.csv("http://wordpress-logs-vincent59.c9users.io/csv/crawl-scifi.csv", header = TRUE, sep=";")
 
 ```
+
+*** =sample_code
+```{r}
+# write str
+
+
+
+```
+
+*** =solution
+```{r}
+# write str
+str(urls)
+```
+
 
 *** =sct
 ```{r}
