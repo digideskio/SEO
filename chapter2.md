@@ -148,7 +148,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:49892dd75f
+--- type:NormalExercise lang:r xp:100 skills:1 key:36992e33b8
 ## Visits Distribution
 
 *** =instructions
