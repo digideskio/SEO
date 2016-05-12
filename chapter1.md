@@ -119,7 +119,7 @@ urls <-  read.csv("http://wordpress-logs-vincent59.c9users.io/csv/crawl-scifi.cs
 str(urls)
 
 # select level and sessions and stored data in a new data frame : small_urls
-small_urls <- select(urls, Level, GA.Sessions)
+small_urls <- select(data = urls, Level, GA.Sessions)
 
 # aggregate your data. Use small_urls dataframe
 urls_level <- aggregate(small_urls$GA.Sessions, by=list(Level=small_urls$Level), FUN=sum)
