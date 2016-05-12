@@ -119,7 +119,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:2393503932
+--- type:NormalExercise lang:r xp:100 skills:1 key:69eabaa8f8
 ## Performance
 
 *** =instructions
